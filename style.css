@@ -1,0 +1,45 @@
+:root{
+    --color-Mob: #ff0000;
+    --color-Tab: #00ff0d;
+    --color-Laptop: #1900ff;
+    --color-Desktop: #f2ff00;
+}
+
+
+.container{
+    place-items: center;
+    background-color: white;
+    height: 100vh;
+}
+
+.text{
+    font-size: 20px;
+}
+
+
+#size{
+    position: absolute;
+}
+
+@media screen and (min-width:576px)
+{
+    .container{
+        background-color: var(--color-Mob);
+    }
+}
+
+
+@media screen and (min-width:768px)
+{
+    .container{
+        background-color: var(--color-Tab);
+    }
+}
+
+
+@media screen and (min-width:990px)
+{
+    .container{
+        background-color: var(--color-Laptop);
+    }
+}
