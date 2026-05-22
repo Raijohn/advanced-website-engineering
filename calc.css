@@ -1,0 +1,37 @@
+body{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+}
+
+.calculator{
+    width: 300px;
+    height: 450px;
+    background-color: rgb(6,5,5);
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    grid-template-rows: repeat(6,1fr);
+    border: 2px solid white;
+    border-radius: 15px;
+    overflow: hidden;
+}
+
+input{
+    grid-area: 1/1/2/-1;
+    font-size: 40px;
+    font-weight: 700;
+    text-align: end;
+    outline: none;
+    background-color: gray;
+    color: black;
+}
+
+button{
+    font-size: 35px;
+    font-weight: 900;
+    border: 2px solid black;
+    border-radius: 12px;
+    background-color: aquamarine;
+}
