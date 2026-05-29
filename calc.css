@@ -35,3 +35,7 @@ button{
     border-radius: 12px;
     background-color: aquamarine;
 }
+
+button:hover{
+    border:1px solid white ;
+}
